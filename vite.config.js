@@ -5,5 +5,5 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   server: { host: true },
-  base: "/portfolio-update/",
+  base: "/",
 });
