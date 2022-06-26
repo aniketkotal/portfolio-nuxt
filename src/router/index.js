@@ -23,18 +23,16 @@ const routes = [
   {
     path: "/projects",
     name: "projects",
-    component: TheTools,
-  },
-  {
-    path: "/tools",
-    name: "tools",
-    component: TheAbout,
+    component: TheProjects,
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from) {
+    if (to) return { top: 0, behavior: "smooth" };
+  },
 });
 
 export default router;

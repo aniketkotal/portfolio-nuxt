@@ -31,6 +31,14 @@ module.exports = {
       theme: "MonoLisa",
       theme_bold: "MonoLisaBold",
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      slg: "978px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
   },
   plugins: [],
 };

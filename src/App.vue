@@ -11,8 +11,14 @@ export default {
 <template>
   <div class="w-full">
     <TheNavbar />
-    <div class="px-52 pt-48 pb-24">
-      <router-view></router-view>
+    <div
+      class="max-w-screen-lg mt-16 px-8 mx-auto pb-24 sm:mt-28 sm:px-16 slg:px-24 lg:mt-48"
+    >
+      <router-view v-slot="{ Component }">
+        <transition name="fade">
+          <component :is="Component" />
+        </transition>
+      </router-view>
     </div>
   </div>
 </template>

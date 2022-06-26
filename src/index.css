@@ -14,6 +14,24 @@
   src: url("./assets/fonts/MonoLisa-Bold.woff2");
 }
 
+@font-face {
+  font-family: "Southam Demo";
+  src: url("./assets/fonts/Southam Demo.otf");
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-enter-active {
+  transition-delay: 0.2s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 * {
   @apply text-p_text font-theme;
 }
