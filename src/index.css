@@ -4,6 +4,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "MonoLisa";
+  src: url("./assets/fonts/MonoLisa-Regular.woff2");
+}
+
+@font-face {
+  font-family: "MonoLisaBold";
+  src: url("./assets/fonts/MonoLisa-Bold.woff2");
+}
+
 * {
-  @apply bg-background text-p_text font-theme;
+  @apply text-p_text font-theme;
+}
+
+body {
+  @apply bg-background;
+}
+
+.router-link-active {
+  @apply bg-btn_back text-btn_text px-6 py-1 pb-2 rounded-md;
 }
