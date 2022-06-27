@@ -49,5 +49,34 @@
       or <LinkBtn link="https://twitter.com/mightykillrr">Twitter</LinkBtn>. I
       post very rarely so you might not find many posts on either.
     </p>
+    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
+    <div class="flex flex-col gap-5">
+      <h3 class="font-theme_bold text-head_text text-3xl">Work</h3>
+      <div class="flex flex-col gap-4 py-4">
+        <a
+          class="flex flex-nowrap justify-between items-start gap-6"
+          v-for="work in works"
+          :key="work.id"
+          :href="work.link"
+        >
+          <span class="font-theme_bold text-head_text">{{ work.name }}</span>
+          <span class="flex-[1_1_auto]"></span>
+          <span class="text-center">{{ work.position }}</span>
+          <span>{{ work.from }} - {{ work.to }}</span>
+        </a>
+      </div>
+    </div>
   </div>
 </template>
+<script>
+import { useWorkStore } from "../store/workStore";
+
+export default {
+  setup() {
+    const workStore = useWorkStore();
+    const works = workStore.getAllWorks;
+
+    return { works };
+  },
+};
+</script>
