@@ -1,9 +1,10 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  mode: "jit",
   theme: {
     extend: {
       backgroundImage: {
-        squgily: "url('./src/assets/divider.svg')",
+        squgily: "url('/src/assets/divider.svg')",
         topbar:
           "linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))",
       },
