@@ -29,8 +29,8 @@ module.exports = {
     },
     fontFamily: {
       logo: "Southam Demo",
-      theme: "MonoLisa",
-      theme_bold: "MonoLisaBold",
+      theme: ["MonoLisa", "Monaco", "Source Code Pro"],
+      theme_bold: ["MonoLisaBold", "Monaco", "Source Code Pro"],
     },
     screens: {
       sm: "640px",

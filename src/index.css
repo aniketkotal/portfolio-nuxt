@@ -19,6 +19,11 @@
   src: url("./assets/fonts/Southam Demo.otf");
 }
 
+@font-face {
+  font-family: "Monaco";
+  src: url("./assets/fonts/Monaco.woff");
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s ease;
