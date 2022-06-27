@@ -1,14 +1,19 @@
 import { createRouter, createWebHistory } from "vue-router";
+import NotFound from "../views/NotFound.vue";
 import TheAbout from "../views/TheAbout.vue";
 import TheHome from "../views/TheHome.vue";
 import TheProjects from "../views/TheProjects.vue";
-import TheTools from "../views/TheTools.vue";
 
 const routes = [
   {
     path: "/",
     name: "main",
     component: TheHome,
+  },
+  {
+    path: "/home",
+    name: "home",
+    redirect: "/",
   },
   {
     path: "/about",
@@ -19,6 +24,11 @@ const routes = [
     path: "/projects",
     name: "projects",
     component: TheProjects,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: NotFound,
   },
 ];
 
