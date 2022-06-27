@@ -18,6 +18,7 @@
   font-family: "Southam Demo";
   src: url("./assets/fonts/Southam Demo.otf");
 }
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s ease;
@@ -40,6 +41,6 @@ body {
   @apply bg-background;
 }
 
-.router-link-active {
-  @apply bg-btn_back text-btn_text px-6 py-1 pb-2 rounded-md;
+div > .router-link-active {
+  @apply bg-btn_back text-btn_text pb-2 rounded-md;
 }

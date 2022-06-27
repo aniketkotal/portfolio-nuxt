@@ -8,11 +8,6 @@ const routes = [
   {
     path: "/",
     name: "main",
-    redirect: "/home",
-  },
-  {
-    path: "/home",
-    name: "home",
     component: TheHome,
   },
   {
@@ -30,7 +25,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to, from) {
+  scrollBehavior(to) {
     if (to) return { top: 0, behavior: "smooth" };
   },
 });
