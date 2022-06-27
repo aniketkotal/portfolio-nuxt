@@ -1,7 +1,15 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# My Personal Portfolio
+This is the source code to my personal page on the internet. You can give it a look at the link below!
 
-## Recommended IDE Setup
+## View Site
+Check it out: https://aniketkotal.me/
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Technologies Used
+- Vue.js
+- Tailwind CSS
+
+## Screenshot
+
+![Hero](https://github.com/mightykillrr/portfolio-update/blob/main/src/assets/preview.png?raw=true)
+
