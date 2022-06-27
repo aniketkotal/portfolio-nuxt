@@ -38,12 +38,8 @@
   opacity: 0;
 }
 
-* {
-  @apply text-p_text font-theme;
-}
-
 body {
-  @apply bg-background;
+  @apply bg-background text-p_text font-theme;
 }
 
 div > .router-link-active {

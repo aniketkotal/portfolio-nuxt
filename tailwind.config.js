@@ -6,7 +6,7 @@ module.exports = {
       backgroundImage: {
         squgily: "url('/src/assets/divider.svg')",
         topbar:
-          "linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))",
+          "linear-gradient(to right, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60))",
       },
     },
     colors: {
@@ -21,8 +21,8 @@ module.exports = {
       action_text: "#d9d9d9",
       btn_back: "#2e2e2e",
       btn_text: "#f6f6f6",
-      link_text_hover: "#8153E2",
-      link_border_hover: "rgba(129, 83, 226, 0.4)",
+      link_text_hover: "#6366F1",
+      link_border_hover: "rgb(99,102,241, 0.4)",
       link_border: "#6c6c6c",
       link: "#d9d9d9",
       background: "#111111",
