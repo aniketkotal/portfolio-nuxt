@@ -9,14 +9,14 @@
       >
     </h1>
     <p
-      class="text-sm md:text-base md:leading-relaxed slg:text-lg lg:leading-loose"
+      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
       I'm Aniket Kotal, an India based Vue.js developer/Student @ Parul
       University, with never-stopping love for learning new tech. I am
       specialising in Web Development with Vue.js, Express, MongoDB and Node.js
     </p>
     <p
-      class="text-sm md:text-base md:leading-relaxed slg:text-lg lg:leading-loose"
+      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
       I'm currently working on
       <LinkBtn link="https://scarletdynasty.vercel.app">Scarlet Dynasty</LinkBtn

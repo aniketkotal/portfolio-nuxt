@@ -26,6 +26,7 @@ module.exports = {
       link_border: "#6c6c6c",
       link: "#d9d9d9",
       background: "#111111",
+      selectionBack: "rgba(40,41,96)",
     },
     fontFamily: {
       logo: "Southam Demo",

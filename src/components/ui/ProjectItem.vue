@@ -1,10 +1,10 @@
 <template>
   <a
-    class="flex flex-col w-full p-6 items-center gap-6 rounded-md bg-item_back hover:bg-item_hover_back transition-colors border-[1px] border-border_sm slg:flex-row"
+    class="flex flex-col w-full p-6 py-6 lg:p-6 lg:py-10 items-center gap-8 rounded-md bg-item_back hover:bg-item_hover_back transition-colors border-[1px] border-border_sm"
     :href="link"
   >
     <img
-      class="w-full h-32 object-cover rounded-md slg:h-36"
+      class="w-full object-cover rounded-md slg:h-48"
       :src="image"
       :alt="name"
     />
@@ -12,8 +12,9 @@
       <span class="font-theme_bold text-lg text-head_text slg:text-xl">{{
         name
       }}</span>
-      <p class="text-sm slg:text-base">{{ description }}</p>
-      <p class="text-sm slg:text-base">{{ tech.join(", ") }}</p>
+      <p class="text-sm md:text-base">
+        {{ description }}
+      </p>
     </div>
   </a>
 </template>
