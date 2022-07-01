@@ -18,11 +18,11 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I'm currently working on
+      I'm currently working for
+      <LinkBtn link="https://trileotech.com/">Trileotech</LinkBtn>, a cool web
+      development company in Ahmedabad. I recently worked on
       <LinkBtn link="https://scarletdynasty.vercel.app">Scarlet Dynasty</LinkBtn
-      >, a website for my friend's team. I recently worked on
-      <LinkBtn link="https://stust.vercel.app/">Stust</LinkBtn>, a fictional
-      card designer. I am also learning GraphQL and UI/UX.
+      >, a website for my friend's team. I am also learning GraphQL and UI/UX.
     </p>
   </div>
 </template>

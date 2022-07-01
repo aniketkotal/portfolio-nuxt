@@ -6,7 +6,7 @@ export const useWorkStore = defineStore("workStore", {
       {
         id: 1,
         name: "Trileotech",
-        position: "Frontend Developer",
+        position: "Jr. Frontend Developer",
         from: "2022",
         to: "Cur.",
         link: "https://trileotech.com/",
