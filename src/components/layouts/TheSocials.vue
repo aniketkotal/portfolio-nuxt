@@ -17,7 +17,7 @@
         icon="ant-design:instagram-outlined"
       />
     </div>
-    <ActionButton link="mailto:aniket1010104@gmail.com">Email Me</ActionButton>
+    <ActionButton link="mailto:hire@aniketkotal.me">Email Me</ActionButton>
   </div>
 </template>
 
