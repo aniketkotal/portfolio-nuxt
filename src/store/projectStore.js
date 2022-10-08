@@ -4,6 +4,16 @@ export const useProjectStore = defineStore("projectStore", {
   state: () => ({
     projects: [
       {
+        id: 6,
+        name: "Hanako - Discord Bot",
+        image: new URL("../assets/featured/hanako.jpg", import.meta.url).href,
+        description:
+            "A multiple-purpose Discord Bot with a focus on fun and utility commands. Made this bot to help me with my Discord server.",
+        tech: ["TypeScript", "Discord.js", "Node.js"],
+        link: "https://github.com/mightykillrr/hanako/",
+        featured: true,
+      },
+      {
         id: 1,
         name: "Scarlet Dynasty",
         image: new URL("../assets/featured/scarlet_dyn.png", import.meta.url)
@@ -12,7 +22,7 @@ export const useProjectStore = defineStore("projectStore", {
           "I made this website for my friend's online store. Scarlet Dynasty is a team creating content for Minecraft Marketplace.",
         tech: ["Vue.js", "Pinia", "TailwindCSS"],
         link: "https://scarletdynasty.vercel.app/",
-        featured: true,
+        featured: false,
       },
       {
         id: 2,
