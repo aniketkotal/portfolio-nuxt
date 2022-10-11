@@ -7,7 +7,7 @@
       TypeScript, Express, and MongoDB
     </MainParagraph>
     <MainParagraph>
-      I'm currently working at
+      I'm currently working full-time for
       <LinkBtn link="https://trileotech.com/" text="Trileotech"/>, a cool web
       development company in Ahmedabad. I am working on a side-project
       <LinkBtn link="https://github.com/mightykillrr/hanako" text="Hanako"/>, a discord bot to help me out with my
