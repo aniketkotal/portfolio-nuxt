@@ -1,6 +1,5 @@
 <template>
   <div class="w-full">
-    <TheNavbar />
     <div
         class="max-w-screen-lg mt-16 mb-20 px-8 mx-auto pb-24 sm:mt-28 sm:px-16 slg:px-24 lg:mt-48 lg:mt-58"
     >
@@ -8,12 +7,16 @@
           <component :is="Component" />
       </NuxtPage>
     </div>
+
   </div>
+  <Teleport to="body">
+    <TheNavbar />
+    <CookiesNotification />
+  </Teleport>
 </template>
 
 <script setup lang="ts">
 import {useHead} from "#head";
-
 const images = import.meta.glob("./assets/pageMeta/*.{png,svg,ico}", {as: 'url', eager: true});
 
 useHead({

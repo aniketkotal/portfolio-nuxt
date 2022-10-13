@@ -21,6 +21,9 @@
       <NavbarItem to="/projects">
         Projects
       </NavbarItem>
+      <NavbarItem to="/blogs">
+        Blogs
+      </NavbarItem>
     </div>
   </nav>
 </template>

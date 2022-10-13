@@ -38,7 +38,7 @@
 }
 
 body {
-    @apply bg-background text-p_text font-theme selection:bg-selectionBack;
+    @apply bg-background text-p_text font-theme selection:bg-selectionBack relative w-full flex flex-col items-center;
 }
 
 div > .router-link-active {
