@@ -1,23 +1,20 @@
 <template>
-  <div class="w-full">
-    <div
-        class="max-w-screen-lg mt-16 mb-20 px-8 mx-auto pb-24 sm:mt-28 sm:px-16 slg:px-24 lg:mt-48 lg:mt-58"
-    >
-      <NuxtPage v-slot="{ Component }">
-          <component :is="Component" />
-      </NuxtPage>
-    </div>
-
-  </div>
+  <NuxtLayout name="default">
+    <NuxtPage v-slot="{ Component }">
+      <component :is="Component"/>
+    </NuxtPage>
+  </NuxtLayout>
   <Teleport to="body">
-    <TheNavbar />
-    <CookiesNotification />
+    <TheNavbar/>
+    <CookiesNotification/>
   </Teleport>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 import {useHead} from "#head";
+
 const images = import.meta.glob("./assets/pageMeta/*.{png,svg,ico}", {as: 'url', eager: true});
+
 
 useHead({
   title: "Aniket Kotal - Full Stack Web Developer",
