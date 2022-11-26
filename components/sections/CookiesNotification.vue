@@ -20,7 +20,7 @@ import {defineNuxtPlugin, onMounted, useRouter, watch} from "#imports";
 import {ref} from "vue";
 import VueGtag, {trackRouter, useState} from 'vue-gtag-next';
 
-const cookieStatus = ref<false | string>(false);
+const cookieStatus = ref<false | string>("true");
 const handleClick = () => {
   cookieStatus.value = "true";
   localStorage.setItem("did_they_love_cookies", "they_did!");
