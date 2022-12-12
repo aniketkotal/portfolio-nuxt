@@ -1,6 +1,8 @@
-::BlogTemplate
+::BlogHead
 ---
-title: First Blog
-date: 2019-01-01
+title: weeee
+date: 2018-01-01
 ---
+::
+
 ::
