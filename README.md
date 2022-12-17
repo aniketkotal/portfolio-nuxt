@@ -6,10 +6,11 @@ This is the source code to my personal page on the internet. You can give it a l
 Check it out: https://aniketkotal.me/
 
 ## Technologies Used
+- Nuxt.js
 - Vue.js
 - Tailwind CSS
 
 ## Screenshot
 
-![Hero](https://github.com/mightykillrr/portfolio-update/blob/main/src/assets/preview.png?raw=true)
+![Hero](https://github.com/mightykillrr/portfolio/blob/main/src/assets/preview.png?raw=true)
 
