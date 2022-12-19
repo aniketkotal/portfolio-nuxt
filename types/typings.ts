@@ -26,3 +26,16 @@ export type Work = {
 export type WorkStore = {
     getAllWorks: Work[];
 }
+
+export type Stack = {
+    title: string;
+    description: string;
+    tools: Array<Language>
+}
+
+export type Language = {
+    name: string;
+    icon: string;
+    url: string;
+    color?: string;
+}

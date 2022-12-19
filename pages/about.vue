@@ -1,7 +1,7 @@
 <template>
     <div>
         <NuxtLayout name="page">
-            <AboutMe />
+            <AboutMe/>
             <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6"/>
             <div class="flex flex-col gap-5">
                 <SectionTitle>Work</SectionTitle>
