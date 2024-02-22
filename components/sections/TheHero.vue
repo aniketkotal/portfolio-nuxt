@@ -4,14 +4,13 @@
     <MainParagraph>
       I'm Aniket Kotal, an India based Full-Stack Web Developer/Student @ Parul
       University. I am specialising in Web Development with Vue 3,
-      TypeScript, Express, and MongoDB
+      TypeScript, and NestJS
     </MainParagraph>
     <MainParagraph>
       I'm currently working full-time for
       <LinkBtn link="https://trileotech.com/" text="Trileotech"/>, a cool web
-      development company in Ahmedabad. I am working on a side-project
-      <LinkBtn link="https://github.com/mightykillrr/hanako" text="Hanako"/>, a discord bot to help me out with my
-      server and give some cool commands for the community.
+      development company in Ahmedabad. I'm currently learning backend with Rust
+      and frontend using C# and .NET
     </MainParagraph>
   </div>
 </template>
