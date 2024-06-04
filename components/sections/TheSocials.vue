@@ -3,7 +3,7 @@
     <div class="flex gap-1">
       <SocialIcon
         title="Github"
-        link="https://github.com/mightykillrr"
+        link="https://github.com/aniketkotal"
         icon="ant-design:github-filled"
       />
       <SocialIcon
